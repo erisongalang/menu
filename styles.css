@@ -1,0 +1,56 @@
+.mainnav {
+    font-size: 0;
+}
+
+.drop{
+width: 100px;
+}
+
+.mainnav li {
+    background-color: #AB2524;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+}
+
+.mainnav li:hover {
+    background-color: #801B1B;
+    transition: ease-in .35s;
+    -moz-transition: ease-in .35s;
+    -webkit-transition: ease-in .35s;
+}
+
+.mainnav a {
+    font-size: 1.5rem;
+    padding: 1.0em;
+    display: block;
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid #fff !important;
+    border-right: 1px solid #fff !important;
+}
+
+.mainnav ul {
+    padding: 0;
+
+}
+
+
+.mainnav ul ul {
+    display: none; 
+    position: absolute;
+
+}
+
+.mainnav li:hover > ul {
+    display: block;
+}
+
+.mainnav ul ul ul {
+    left: 100%;
+    top: 0;
+}
+
+.mainnav > ul > li > ul > li {
+    min-width: 100%;
+}
